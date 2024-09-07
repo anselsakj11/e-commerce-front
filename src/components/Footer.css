@@ -1,0 +1,125 @@
+.Footer {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f7f7f7;
+  height: 90vh;
+
+  /* padding: 40px 0; */
+}
+
+.information-part {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 2em;
+  margin-bottom: 40px;
+}
+
+.shop-tab,
+.about-tab,
+.get-help,
+.fas-tab {
+  width: 20%;
+  margin-right: 40px;
+}
+
+.shop-tab h1,
+.about-tab h1,
+.get-help h1,
+.fas-tab h1 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.same-p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.sign-tab {
+  width: 40%;
+  margin-right: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sign-tab h1 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.sign-tab p {
+  font-size: 16px;
+
+  width: 90%;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.sign-tab input[type="email"] {
+  width: 70%;
+
+  padding: 10px;
+
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.sign-tab button {
+  width: 28%;
+  padding: 1em;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.sign-tab input[type="email"],
+.sign-tab button {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.lastt-part {
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin-top: 5em;
+  width: 95%;
+}
+
+.copyright {
+  font-size: 16px;
+  color: #fff;
+}
+.log-in {
+  width: 90%;
+  display: flex;
+  align-items: center;
+}
+.rightt-side {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 1em 0;
+  width: 40%;
+}
+
+.leftt-side button {
+  background-color: transparent;
+  font-size: 14px;
+  padding: 1em 2em;
+  color: #666;
+}
+.diff-p {
+  font-size: smaller;
+  color: #666;
+}
