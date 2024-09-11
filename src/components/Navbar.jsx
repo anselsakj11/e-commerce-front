@@ -8,12 +8,12 @@ function Navbar() {
       </div>
 
       <div className="part-one">
-        <a className="shop-links" href="http://">
-          BEST SELLER
-        </a>
-        <a className="shop-links" href="http://">
-          SUITCASES
-        </a>
+        <Link className="shop-links" to="/">
+          Home
+        </Link>
+        <Link className="shop-links" to="/shop">
+          Shop
+        </Link>
         <a className="shop-links" href="http://">
           BAGS
         </a>

@@ -1,4 +1,3 @@
-
 import { useState, useCallback } from "react";
 import "./Filter.css";
 
@@ -15,7 +14,7 @@ const Filter = ({ onFilterChange }) => {
       setFilter(newFilter);
       onFilterChange(newFilter);
     },
-    [onFilterChange, filter]
+    [onFilterChange]
   );
 
   const handleCategoryChange = useCallback(
@@ -24,7 +23,7 @@ const Filter = ({ onFilterChange }) => {
       setFilter(newFilter);
       onFilterChange(newFilter);
     },
-    [onFilterChange, filter]
+    [filter, onFilterChange]
   );
 
   const handlePriceChange = useCallback(
@@ -33,42 +32,43 @@ const Filter = ({ onFilterChange }) => {
       setFilter(newFilter);
       onFilterChange(newFilter);
     },
-    [onFilterChange, filter]
+    [filter, onFilterChange]
   );
-
   return (
     <div className="filter">
-      <label>
-        Material:
-        <select value={filter.material} onChange={handleMaterialChange}>
-          <option value="">All</option>
-          <option value="wood">Wood</option>
-          <option value="metal">Metal</option>
-          <option value="plastic">Plastic</option>
-        </select>
-      </label>
+      <select
+        className="filter-opt"
+        value={filter.material}
+        onChange={handleMaterialChange}
+      >
+        <option value="">Material</option>
+        <option value="leather">Leather</option>
+        <option value="plastic">Plastic</option>
+        <option value="metal">Metal</option>
+      </select>
 
-      <label>
-        Category:
-        <select value={filter.category} onChange={handleCategoryChange}>
-          <option value="">All</option>
-          <option value="furniture">Furniture</option>
-          <option value="decor">Decor</option>
-          <option value="kitchen">Kitchen</option>
-        </select>
-      </label>
+      <select
+        className="filter-opt"
+        value={filter.category}
+        onChange={handleCategoryChange}
+      >
+        <option value="">Category</option>
+        <option value="carry-on">Carry-on</option>
+        <option value="backpack">Backpack</option>
+        <option value="duffel">Duffel</option>
+      </select>
 
-      <label>
-        Price:
-        <input
-          type="number"
-          value={filter.price}
-          onChange={handlePriceChange}
-          placeholder="Enter price"
-        />
-      </label>
+      <select
+        className="filter-opt"
+        value={filter.price}
+        onChange={handlePriceChange}
+      >
+        <option value="">Price</option>
+        <option value="0-50">0-50</option>
+        <option value="50-100">50-100</option>
+        <option value="100-200">100-200</option>
+      </select>
     </div>
   );
 };
-
 export default Filter;

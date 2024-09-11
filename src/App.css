@@ -149,3 +149,8 @@
 .align-around {
   align-items: space-around;
 }
+
+img {
+  width: 100%;
+  object-fit: cover;
+}

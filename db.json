@@ -1,0 +1,133 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "img": [
+        "img/p1/1.webp",
+        "img/p1/b1.jpg",
+        "img/p1/b2.jpg",
+        "img/p1/h1.png",
+        "img/p1/h2.png",
+        "img/p1/h3.png"
+      ],
+      "name": "Carry-On",
+      "price": "30",
+      "colors": ["red", "olive", "black", "gold", "pink"],
+      " stockAmount": 5,
+      " category": "carry-on",
+      " material": "lether"
+    },
+    {
+      "id": "2",
+      "img": ["img/p2/1.webp", "img/p2/2.webp", "img/p2/3.webp"],
+      "name": "Carry-On Flex",
+      "price": "325",
+      "colors": ["black", "gold", "pink"],
+      " stockAmount": 20,
+      " category": "carry-on",
+      " material": "plastic"
+    },
+    {
+      "id": "3",
+      "img": [
+        "img/p1/1.webp",
+        "img/p1/b1.jpg",
+        "img/p1/b2.jpg",
+        "img/p1/h1.png",
+        "img/p1/h2.png",
+        "img/p1/h3.png"
+      ],
+      "name": "THe Bigger Carry-on",
+      "price": "625",
+      "colors": ["red", "gold", "pink"],
+      " stockAmount": 25,
+      " category": "carry-on",
+      " material": "aluminum"
+    },
+    {
+      "id": "4",
+      "img": [
+        "img/p1/1.webp",
+        "img/p1/b1.jpg",
+        "img/p1/b2.jpg",
+        "img/p1/h1.png",
+        "img/p1/h2.png",
+        "img/p1/h3.png"
+      ],
+      "name": "Carry-Bag",
+      "price": "345",
+      "colors": ["olive", "black", "gold", "pink"],
+      " stockAmount": 1,
+      " category": "big-carry-on",
+      " material": "plastic"
+    },
+    {
+      "id": "5",
+      "img": [
+        "img/p1/1.webp",
+        "img/p1/b1.jpg",
+        "img/p1/b2.jpg",
+        "img/p1/h1.png",
+        "img/p1/h2.png",
+        "img/p1/h3.png"
+      ],
+      "name": "Carry-on",
+      "price": "645",
+      "colors": ["red", "olive", "gold", "pink"],
+      " stockAmount": 20,
+      " category": "big-carry-on",
+      " material": "aluminum"
+    },
+    {
+      "id": "6",
+      "img": [
+        "img/p1/1.webp",
+        "img/p1/b1.jpg",
+        "img/p1/b2.jpg",
+        "img/p1/h1.png",
+        "img/p1/h2.png",
+        "img/p1/h3.png"
+      ],
+      "name": "THe Bigger Carry-on",
+      "price": "345",
+      "colors": ["red", "black", "gold", "pink"],
+      " stockAmount": 5,
+      " category": "medium",
+      " material": "plastic"
+    },
+    {
+      "id": "7",
+      "img": [
+        "img/p1/1.webp",
+        "img/p1/b1.jpg",
+        "img/p1/b2.jpg",
+        "img/p1/h1.png",
+        "img/p1/h2.png",
+        "img/p1/h3.png"
+      ],
+      "name": "Carry-Bag",
+      "price": "45",
+      "colors": ["red", "black", "gold", "pink"],
+      " stockAmount": 5,
+      " category": "medium",
+      " material": "plastic"
+    },
+    {
+      "id": "8",
+      "img": [
+        "img/p1/1.webp",
+        "img/p1/b1.jpg",
+        "img/p1/b2.jpg",
+        "img/p1/h1.png",
+        "img/p1/h2.png",
+        "img/p1/h3.png"
+      ],
+      "name": "Carry-on Flex",
+      "price": "45",
+      "colors": ["red", "black", "gold", "pink"],
+      " stockAmount": 5,
+      " category": "medium",
+      " material": "plastic"
+    }
+  ]
+}
