@@ -2,132 +2,134 @@
   "products": [
     {
       "id": "1",
-      "img": [
-        "img/p1/1.webp",
-        "img/p1/b1.jpg",
-        "img/p1/b2.jpg",
-        "img/p1/h1.png",
-        "img/p1/h2.png",
-        "img/p1/h3.png"
+      "img": "img/2.webp",
+      "imgs": [
+        "/img/bag.webp",
+        "/img/luggage.webp",
+        "/img/ent1.jpg",
+        "/img/ent2.jpg",
+        "/img/tech1.jpg",
+        "/img/tech2.jpg"
       ],
-      "name": "Carry-On",
-      "price": "30",
-      "colors": ["red", "olive", "black", "gold", "pink"],
-      " stockAmount": 5,
-      " category": "carry-on",
-      " material": "lether"
+      "name": "Test1",
+      "price": "2000",
+      "colors": ["black", "gold", "pink"],
+      "stockAmount": "120",
+      "category": "2",
+      "material": "1"
     },
     {
       "id": "2",
-      "img": ["img/p2/1.webp", "img/p2/2.webp", "img/p2/3.webp"],
-      "name": "Carry-On Flex",
-      "price": "325",
+      "img": "img/2.webp",
+      "imgs": [
+        "/img/bag.webp",
+        "/img/luggage.webp",
+        "/img/ent1.jpg",
+        "/img/ent2.jpg",
+        "/img/tech1.jpg",
+        "/img/tech2.jpg"
+      ],
+      "name": "Test2",
+      "price": "4000",
       "colors": ["black", "gold", "pink"],
-      " stockAmount": 20,
-      " category": "carry-on",
-      " material": "plastic"
+      "stockAmount": "120",
+      "category": "1",
+      "material": "2"
     },
     {
       "id": "3",
-      "img": [
-        "img/p1/1.webp",
-        "img/p1/b1.jpg",
-        "img/p1/b2.jpg",
-        "img/p1/h1.png",
-        "img/p1/h2.png",
-        "img/p1/h3.png"
+      "img": "img/2.webp",
+      "imgs": [
+        "/img/bag.webp",
+        "/img/luggage.webp",
+        "/img/ent1.jpg",
+        "/img/ent2.jpg",
+        "/img/tech1.jpg",
+        "/img/tech2.jpg"
       ],
-      "name": "THe Bigger Carry-on",
-      "price": "625",
-      "colors": ["red", "gold", "pink"],
-      " stockAmount": 25,
-      " category": "carry-on",
-      " material": "aluminum"
+      "name": "Test3",
+      "price": "1000",
+      "colors": ["black", "gold", "pink"],
+      "stockAmount": "120",
+      "category": "3",
+      "material": "1"
     },
     {
       "id": "4",
-      "img": [
-        "img/p1/1.webp",
-        "img/p1/b1.jpg",
-        "img/p1/b2.jpg",
-        "img/p1/h1.png",
-        "img/p1/h2.png",
-        "img/p1/h3.png"
+      "img": "img/2.webp",
+      "imgs": [
+        "/img/bag.webp",
+        "/img/luggage.webp",
+        "/img/ent1.jpg",
+        "/img/ent2.jpg",
+        "/img/tech1.jpg",
+        "/img/tech2.jpg"
       ],
-      "name": "Carry-Bag",
-      "price": "345",
-      "colors": ["olive", "black", "gold", "pink"],
-      " stockAmount": 1,
-      " category": "big-carry-on",
-      " material": "plastic"
+      "name": "Test4",
+      "price": "5000",
+      "colors": ["black", "gold", "pink"],
+      "stockAmount": "120",
+      "category": "3",
+      "material": "1"
+    }
+  ],
+  "material": [
+    {
+      "id": "1",
+      "title": "plastic"
     },
     {
-      "id": "5",
-      "img": [
-        "img/p1/1.webp",
-        "img/p1/b1.jpg",
-        "img/p1/b2.jpg",
-        "img/p1/h1.png",
-        "img/p1/h2.png",
-        "img/p1/h3.png"
-      ],
-      "name": "Carry-on",
-      "price": "645",
-      "colors": ["red", "olive", "gold", "pink"],
-      " stockAmount": 20,
-      " category": "big-carry-on",
-      " material": "aluminum"
+      "id": "2",
+      "title": "metal"
     },
     {
-      "id": "6",
-      "img": [
-        "img/p1/1.webp",
-        "img/p1/b1.jpg",
-        "img/p1/b2.jpg",
-        "img/p1/h1.png",
-        "img/p1/h2.png",
-        "img/p1/h3.png"
-      ],
-      "name": "THe Bigger Carry-on",
-      "price": "345",
-      "colors": ["red", "black", "gold", "pink"],
-      " stockAmount": 5,
-      " category": "medium",
-      " material": "plastic"
+      "id": "3",
+      "title": "aluminuim"
+    }
+  ],
+  "category": [
+    {
+      "id": "1",
+      "name": "bag"
     },
     {
-      "id": "7",
-      "img": [
-        "img/p1/1.webp",
-        "img/p1/b1.jpg",
-        "img/p1/b2.jpg",
-        "img/p1/h1.png",
-        "img/p1/h2.png",
-        "img/p1/h3.png"
-      ],
-      "name": "Carry-Bag",
-      "price": "45",
-      "colors": ["red", "black", "gold", "pink"],
-      " stockAmount": 5,
-      " category": "medium",
-      " material": "plastic"
+      "id": "2",
+      "name": "luggage"
     },
     {
-      "id": "8",
-      "img": [
-        "img/p1/1.webp",
-        "img/p1/b1.jpg",
-        "img/p1/b2.jpg",
-        "img/p1/h1.png",
-        "img/p1/h2.png",
-        "img/p1/h3.png"
-      ],
-      "name": "Carry-on Flex",
-      "price": "45",
-      "colors": ["red", "black", "gold", "pink"],
-      " stockAmount": 5,
-      " category": "medium",
-      " material": "plastic"
+      "id": "3",
+      "name": "small bag"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "1",
+      "username": "Kim1",
+      "title": "Great product",
+      "desc": "sdasad dksajdjsajd nsdnjsank djnsa dnsajnd mm,dasnda",
+      "stars": "4",
+      "productId": "1"
+    },
+    {
+      "id": "2",
+      "username": "Kim2",
+      "title": "Great product",
+      "desc": "sdasad dksajdjsajd nsdnjsank djnsa dnsajnd mm,dasnda",
+      "productId": "1"
+    },
+    {
+      "id": "3",
+      "username": "Kim3",
+      "title": "Great product",
+      "desc": "sdasad dksajdjsajd nsdnjsank djnsa dnsajnd mm,dasnda",
+      "productId": "2"
+    },
+    {
+      "id": "4",
+      "username": "Kim4",
+      "title": "Great product",
+      "desc": "sdasad dksajdjsajd nsdnjsank djnsa dnsajnd mm,dasnda",
+      "productId": "3"
     }
   ]
 }

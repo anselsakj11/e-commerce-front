@@ -1,0 +1,25 @@
+.review-div {
+  border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  font-family: sans-serif;
+  height: 35vh;
+  padding-left: 2em;
+}
+.review-div h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+.rateing-p {
+  font-size: 1.2em;
+  font-weight: 600;
+  margin-left: 100px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.total-reviews {
+  font-size: 1.2em;
+  font-weight: 600;
+  margin-left: 60px;
+}

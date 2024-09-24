@@ -6,3 +6,26 @@
   width: 50%;
   height: 90vh;
 }
+.left-images {
+  display: flex;
+  flex-direction: column;
+  width: 9%;
+
+  position: absolute;
+  top: 10;
+}
+.next-btn {
+  border: 0;
+  background-color: transparent;
+  position: absolute;
+  left: 46em;
+  bottom: 22em;
+}
+.prev-btn {
+  border: 0;
+  background-color: transparent;
+
+  position: absolute;
+  right: 87em;
+  bottom: 22em;
+}

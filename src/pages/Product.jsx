@@ -6,13 +6,16 @@ import Navbar from "../components/Navbar";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import ProductDetails from "../components/ProductDetails";
 import ProductPanel from "../components/ProductPanel";
+import Reviews from "../components/Reviews";
+import ReviewsList from "../components/ReviewsList";
 import "./Product.css";
 function Product() {
   const { productId } = useParams();
   const [pageProduct, setPageProduct] = useState({});
 
-  //Call backend for products data
+  // Call backend for products data
   // Product() -> fetch() -> setPageProduct(productData) -> Product()
+
   useEffect(() => {
     console.log(
       `Calling endpoint: http://localhost:3000/products/${productId}`
@@ -27,18 +30,19 @@ function Product() {
 
         setPageProduct(productData);
       });
-  }, []); //dependecy array -> run only when component is first displayed(mounted)
+  }, []);
 
   return (
     <div>
       <Navbar></Navbar>
       <div className="main-area">
-        <ProductPanel></ProductPanel>
-        <ProductDetails></ProductDetails>
+        <ProductPanel imgs={pageProduct.imgs}></ProductPanel>
+        <ProductDetails product={pageProduct}></ProductDetails>
       </div>
-
-      {/* <h1>{pageProduct.name}</h1>
-      <h1>{pageProduct.price}</h1> */}
+      <div className="second-area">
+        <Reviews></Reviews>
+        <ReviewsList product={pageProduct}></ReviewsList>
+      </div>
     </div>
   );
 }

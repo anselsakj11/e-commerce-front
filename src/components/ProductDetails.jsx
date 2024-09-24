@@ -1,11 +1,12 @@
 import { useParams } from "react-router-dom";
 import "./ProductsDetails.css";
 
-function ProductDetails() {
+function ProductDetails({ product }) {
   //   const { id } = useParams();
   return (
     <div className="right-side">
-      <h1 className="product-title">The Carry-On Carry-one-Flex</h1>
+      <h1 className="product-title">{product.name}</h1>
+      <h1 className="product-title">{product.price}$</h1>
 
       <div className="shipping">
         <p>Free shipping Free returns</p>
@@ -17,6 +18,7 @@ function ProductDetails() {
         <div className="gray-color"></div>
         <div className="blue-color"></div>
       </div>
+
       <div className="btn-div">
         <p className="first-btn">AWY</p>
 

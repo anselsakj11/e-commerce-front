@@ -1,6 +1,9 @@
 import "./App.css";
 
 import Home from "./pages/Home";
+// import Reviews from "./components/Reviews";
+// import ReviewsList from "./components/ReviewsList";
+
 import Shop from "./pages/Shop";
 import Product from "./pages/Product";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
@@ -85,6 +88,10 @@ function App() {
         <Route path="/product/:productId" element={<Product />} />
       </Routes>
     </Router>
+    // <div>
+    //   <Reviews></Reviews>
+    //   <ReviewsList></ReviewsList>
+    // </div>
   );
 }
 

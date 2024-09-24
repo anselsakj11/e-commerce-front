@@ -1,0 +1,70 @@
+.review-list {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  background-color: #f1f2f1;
+}
+.decription-rew {
+  border-radius: 20px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  margin: 20px auto;
+  height: 25vh;
+}
+
+.rew-text {
+  text-align: left;
+  font-size: 13px; /* Set a medium font size for the review text */
+  color: #333; /* Set a darker color for the review text */
+  margin-bottom: 20px; /* Add some margin to separate the review text from the "Was this review helpful?" text */
+}
+
+.ask-rew {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  text-align: left;
+}
+.ask-rew p {
+  font-size: 13px;
+}
+.ask-rew a {
+  font-size: 13px;
+  color: #666;
+}
+
+.right-review {
+  width: 60%;
+
+  box-sizing: border-box;
+}
+.right-review h1 {
+  font-size: 18px;
+  text-align: left;
+}
+.left-review {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  width: 20%;
+
+  margin-right: 5em;
+}
+.left-review h1 {
+  font-size: larger;
+}
+.left-review p {
+  font-size: 14px;
+}
+.left-review span {
+  font-size: 14px;
+  color: #666;
+}
